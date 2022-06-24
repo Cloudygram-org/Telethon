@@ -68,6 +68,15 @@ Doing stuff
     async def handler(event):
         await event.respond('Hey!')
 
+Building a package
+----------
+
+.. code-block:: none
+
+    $ git clone https://github.com/Cloudygram-org/Telethon
+    $ cd ./Telethon
+    $ python setup.py gen all
+    $ python -m build
 
 Next steps
 ----------
